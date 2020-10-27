@@ -11,7 +11,7 @@ const IndexPage = () => (
     <section className="hero">
       <div className="container">
         <h1><strong>Project Spawn</strong> is under development</h1>
-        <p>Project Spawn is under development. If you would like to contribute to this website or the ProjectSpawn project please contact me at <a href="mailto:bcw1995@gmail.com">Byron Wade &#60;bcw1995@gmail.com	&#62;</a>.</p>
+        <p>If you would like to contribute to this website or the ProjectSpawn project please contact me at <a href="mailto:bcw1995@gmail.com">Byron Wade &#60;bcw1995@gmail.com	&#62;</a>.</p>
         <p>This project will be opensource and on my <a href="https://github.com/byronwade/ProjectSpawn">github</a></p>
         <h1>How far have I gotten?</h1>
         <p>I am a partial frontend dev but mostly a designer. So currently ive built part of the user interface, however, I have most of the designing done.</p>
