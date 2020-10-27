@@ -1,0 +1,107 @@
+@import "colors.scss";
+/* GRID EXAMPLE */
+/* 
+<div class="container">
+  <div class="container__row">
+    <div class="container__col-sm-12 container__col-md-4">sm12, md4</div>
+    <div class="container__col-sm-12 container__col-md-4">sm12, md4</div>
+    <div class="container__col-sm-12 container__col-md-4">sm12, md4</div>
+  </div>
+</div>
+*/
+@import "grid.scss";
+@import "reset.scss";
+@import "type.scss";
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-size:25px;
+  background: #FBFBF8;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #383B3E;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 60px;
+  color: rgba(17,17,17,1);
+}
+p {
+  color: rgba(17,17,17,1);
+  font-size:25px;
+  line-height: 51px;
+}
+
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background: #FBFBF8;
+}
+.nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .branding {
+    flex-direction: row;
+    margin-right: auto;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: #0083F6;
+    font-weight: bold;
+  }
+  .menu {
+    .menuItem {
+      margin-right:20px;
+      padding:7px 15px;
+      border-radius: 7px;
+      background: #0083F6;
+      color: #FBFBF8;
+      text-decoration: none;
+      font-size: 15px;
+      &:hover {
+        background: #007eec;
+      }
+      &.coffee {
+        background: #8e562e;
+        &:hover {
+          background: #834e29;
+        }
+      }
+    }
+  }
+}
+
+
+
+.hero {
+  padding:100px 0;
+  strong {
+    color: red;
+  }
+}
+
+
+
+
+.footer {
+  padding:100px 0;
+  text-align: center;
+  .socialmedia {
+    padding: 40px 0;
+    a {
+      padding: 0 20px;
+    }
+  }
+}
